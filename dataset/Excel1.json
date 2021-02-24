@@ -1,0 +1,45 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "bronze"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Date",
+				"type": "String"
+			},
+			{
+				"name": "Hotel",
+				"type": "String"
+			},
+			{
+				"name": "SPA",
+				"type": "String"
+			},
+			{
+				"name": "Restaurant",
+				"type": "String"
+			},
+			{
+				"name": "Bar",
+				"type": "String"
+			},
+			{
+				"name": "Rooms",
+				"type": "String"
+			}
+		]
+	}
+}
