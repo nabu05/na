@@ -14,6 +14,31 @@
 			},
 			"compressionCodec": "none"
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "Date",
+				"type": "INT96"
+			},
+			{
+				"name": "Hotel",
+				"type": "UTF8"
+			},
+			{
+				"name": "SPA",
+				"type": "UTF8"
+			},
+			{
+				"name": "Restaurant",
+				"type": "UTF8"
+			},
+			{
+				"name": "Bar",
+				"type": "UTF8"
+			},
+			{
+				"name": "Rooms",
+				"type": "UTF8"
+			}
+		]
 	}
 }
